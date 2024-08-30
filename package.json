@@ -2,7 +2,7 @@
   "name": "@khulnasoft/hooks",
   "version": "0.0.0-placeholder",
   "dependencies": {
-    "amqplib": "^0.5.6",
+    "amqplib": "^0.10.4",
     "boom": "^5.2.0",
     "envalid": "^8.0.0",
     "good": "^8.1.2",
