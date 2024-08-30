@@ -6,7 +6,7 @@
     "boom": "^5.2.0",
     "envalid": "^8.0.0",
     "good": "^8.1.2",
-    "good-console": "^7.0.0",
+    "good-console": "^8.0.0",
     "good-squeeze": "^0.0.1",
     "hapi": "^16.6.3",
     "hoek": "^4.2.1",
