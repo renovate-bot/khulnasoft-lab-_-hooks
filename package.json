@@ -1,0 +1,41 @@
+{
+  "name": "@khulnasoft/hooks",
+  "version": "0.0.0-placeholder",
+  "dependencies": {
+    "amqplib": "^0.5.6",
+    "boom": "^5.2.0",
+    "envalid": "^8.0.0",
+    "good": "^8.1.2",
+    "good-console": "^7.0.0",
+    "good-squeeze": "^0.0.1",
+    "hapi": "^16.6.3",
+    "hoek": "^4.2.1",
+    "hot-shots": "^5.2.0",
+    "lodash": "^4.17.11",
+    "node-fetch": "^2.3.0",
+    "rollbar": "^2.4.0"
+  },
+  "devDependencies": {
+    "nock": "^10.0.1",
+    "standard": "^17.1.0",
+    "tap": "^21.0.1"
+  },
+  "engines": {
+    "node": "8"
+  },
+  "license": "Apache-2.0",
+  "publishConfig": {
+    "access": "restricted"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/khulnasoft/hooks.git"
+  },
+  "scripts": {
+    "mq:start": "./start-amqp",
+    "deploy": "./deploy",
+    "pretest": "standard && npm run mq:start",
+    "start": "node index.js",
+    "test": "tap ./test"
+  }
+}
